@@ -9,8 +9,10 @@ import DeployButton from "@/components/DeployButton";
 // CheckoutButton component with modern styling
 const CheckoutButton = () => {
     return (
-      <button className="relative text-white font-bold py-2 px-4 rounded-lg transition duration-300 ease-in-out before:content-[''] before:absolute before:inset-0 before:bg-gradient-to-r before:from-blue-400 before:to-blue-600 before:rounded-lg before:filter before:blur-sm before:scale-105 before:opacity-80 hover:before:opacity-90 after:content-[''] after:absolute after:inset-1 after:bg-gradient-to-b from-white/10 to-transparent after:rounded-lg after:transition-opacity after:duration-300 after:hover:opacity-0">
+      <button className="relative font-sans text-white font-bold py-2 px-4 rounded-lg transition-all duration-300 ease-in-out backdrop-blur-[20px] bg-[rgba(255,255,255,0.074)] border border-[rgba(255,255,255,0.222)] hover:border-[rgba(255,255,255,0.454)] hover:shadow-[0_0_20px_1px_#ffbb763f]">
             Checkout
+            <span className="absolute inset-0 rounded-full bg-[#fab5704c] w-24 h-24 top-[30%] right-[7%]"></span>
+            <span className="absolute h-12 w-full bg-transparent border-1 border-solid top-[8%] right-[5%]"></span>
         </button>
     );
 };
