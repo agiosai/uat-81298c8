@@ -30,10 +30,8 @@ export default async function Index() {
 
       <div className="animate-in flex-1 flex flex-col gap-20 opacity-0 max-w-4xl px-3">
         <Header />
-          <main className="flex-1 flex flex-col gap-6 items-center"> <!-- Added 'items-center' to center all children horizontally -->
-            <h2 className="font-bold text-4xl mb-4 text-center"> <!-- Added 'text-center' to center the text -->
-            Product List
-            </h2>
+          <main className="flex-1 flex flex-col gap-6 items-center">
+            <h2 className="font-bold text-4xl mb-4 text-center">Product List</h2>
         {isSupabaseConnected ? <SignUpUserSteps /> : <ConnectSupabaseSteps />}
           </main>
       </div>
