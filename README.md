@@ -1,3 +1,30 @@
+## Version History
+
+- 24-04-22 20:56 - Developer build has been endorsed.
+- 24-04-23 03:20 - UAT up and running via Vercel.
+
+
+## Issues
+
+- There is no update to database. Please provide me the integration details and I will check.
+- The products and pricing are hard coded. There is only one checkout button with a hardcoded price.
+- The email on the checkout form is hard coded. It did not fetch the email of the authenticated user.
+
+
+## Findings and Other Changes
+
+- To change the body, you can modify the pages under components:
+    - Header.tsx - changes the main content. I have put a placeholder AGIOS.
+    - NextLogo.tsx - the NextJS logo on top of the content.
+    - SupabaseLogo.tsx - the Supabase logo on top of the content.
+    - DeployButton.tsx - The Vercel deploy button on the header. I changed this to redirect to the landing page instead.    
+- The products and pricing are hard coded. There is only one checkout button with a hardcoded price.
+- The email on the checkout form is hard coded. It did not fetch the email of the authenticated user.
+
+
+
+## Original Template from Vercel
+
 <a href="https://demo-nextjs-with-supabase.vercel.app/">
   <img alt="Next.js and Supabase Starter Kit - the fastest way to build apps with Next.js and Supabase" src="https://demo-nextjs-with-supabase.vercel.app/opengraph-image.png">
   <h1 align="center">Next.js and Supabase Starter Kit</h1>
