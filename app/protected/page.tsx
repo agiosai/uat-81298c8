@@ -9,9 +9,9 @@ import DeployButton from "@/components/DeployButton";
 // CheckoutButton component with modern styling
 const CheckoutButton = () => {
     return (
-        <button className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white font-bold py-2 px-4 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1">
-            Checkout
-        </button>
+      <button className="bg-black/30 backdrop-blur-md text-white font-bold py-2 px-4 rounded-lg shadow-lg transition duration-300 ease-in-out hover:bg-black/50">
+      Checkout
+  </button>
     );
 };
 
