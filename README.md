@@ -5,7 +5,6 @@
                   - You can track the changes here: https://vercel.com/agios/agios8/deployments
 
 
-
 ## Issues
 
 - There is no update to database. Please provide me the integration details and I will check.
@@ -21,10 +20,7 @@
     - SupabaseLogo.tsx - the Supabase logo on top of the content.
     - DeployButton.tsx - The Vercel deploy button on the header. I changed this to redirect to the landing page instead.
     - Page.tsx - I have updated the footer and replace it with a copyright and landing page link.
-        
-- The products and pricing are hard coded. There is only one checkout button with a hardcoded price.
-- The email on the checkout form is hard coded. It did not fetch the email of the authenticated user.
-
+    - protected/Page.tsx - I have refactored the checkout button, but it must be replaced by a dynamic price plan list.
 
 
 ## Original Template from Vercel
