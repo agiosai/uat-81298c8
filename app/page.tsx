@@ -30,23 +30,27 @@ export default async function Index() {
 
       <div className="animate-in flex-1 flex flex-col gap-20 opacity-0 max-w-4xl px-3">
         <Header />
-        <main className="flex-1 flex flex-col gap-6">
-          <h2 className="font-bold text-4xl mb-4">Next steps</h2>
-          {isSupabaseConnected ? <SignUpUserSteps /> : <ConnectSupabaseSteps />}
-        </main>
+          <main className="flex-1 flex flex-col gap-6 items-center"> <!-- Added 'items-center' to center all children horizontally -->
+            <h2 className="font-bold text-4xl mb-4 text-center"> <!-- Added 'text-center' to center the text -->
+            Product List
+            </h2>
+        {isSupabaseConnected ? <SignUpUserSteps /> : <ConnectSupabaseSteps />}
+          </main>
       </div>
+
 
       <footer className="w-full border-t border-t-foreground/10 p-8 flex justify-center text-center text-xs">
         <p>
-          Powered by{" "}
+        © 2024{" "}
           <a
-            href="https://supabase.com/?utm_source=create-next-app&utm_medium=template&utm_term=nextjs"
+            href="https://web-agi-2ec363.webflow.io/"
             target="_blank"
             className="font-bold hover:underline"
             rel="noreferrer"
           >
-            Supabase
+            AGIOS
           </a>
+          . ALL RIGHTS RESERVED.
         </p>
       </footer>
     </div>
