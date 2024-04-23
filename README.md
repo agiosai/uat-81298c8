@@ -3,6 +3,7 @@
 - 24-04-22 20:56  - Developer build has been endorsed.
 - 24-04-23 03:20  - UAT up and running via Vercel.
                   - You can track the changes here: https://vercel.com/agios/agios8/deployments
+- 24-04-23 12:00  - Migrate to UAT.
 
 
 ## Issues
